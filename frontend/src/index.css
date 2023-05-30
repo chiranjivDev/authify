@@ -1,0 +1,13 @@
+.brand{
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  letter-spacing: 0.7rem;
+}
+
+main {
+  min-height: 80vh;
+}
+.btn{
+  margin-top: 16px;
+  width: 100%;
+}
