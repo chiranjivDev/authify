@@ -29,7 +29,7 @@ const LoginScreen = () => {
                     </Form.Control>
                 </Form.Group>
 
-                <Form.Group controlId='password'>
+                <Form.Group controlId='password' className='my-2'>
                     <Form.Label>Password</Form.Label>
                     <Form.Control type='password' placeholder='Enter Password' value={password} onChange={(e)=>setPassword(e.target.value)}>
                     </Form.Control>

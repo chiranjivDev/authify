@@ -29,19 +29,19 @@ const RegisterScreen = () => {
                     <Form.Control type='text' placeholder='Enter Name' value={name} onChange={(e)=>setName(e.target.value)}>
                     </Form.Control>
                 </Form.Group>
-                <Form.Group controlId='email'>
+                <Form.Group controlId='email' className='my-2'>
                     <Form.Label>Email Address</Form.Label>
                     <Form.Control type='email' placeholder='Enter Email' value={email} onChange={(e)=>setEmail(e.target.value)}>
                     </Form.Control>
                 </Form.Group>
 
-                <Form.Group controlId='password'>
+                <Form.Group controlId='password' className='my-2'>
                     <Form.Label>Set Password</Form.Label>
                     <Form.Control type='password' placeholder='Enter Password' value={password} onChange={(e)=>setPassword(e.target.value)}>
                     </Form.Control>
                 </Form.Group>
 
-                <Form.Group controlId='confirmPassword'>
+                <Form.Group controlId='confirmPassword' className='my-2'>
                     <Form.Label>Confirm Password</Form.Label>
                     <Form.Control type='password' placeholder='Confirm Password' value={confirmPassword} onChange={(e)=>setConfirmPassword(e.target.value)}>
                     </Form.Control>
